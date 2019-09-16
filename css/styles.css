@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.header-main {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    padding: 16px;
+}
+
+.image-2x-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-2x-container>div {
+    display: block;
+}
+
+.image-2x-container>div>img {
+
+    min-width: 100px;
+    max-width: 350px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.image-and-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-and-text-container > div > p {
+    padding-left: 16px;
+    text-align: justify;
+}
+
+.image-and-text-container > div > img {
+    width: 100%;
+}
+
+.image-and-text-left {
+    max-width: 40%;
+}
+
+.image-and-text-right {
+    max-width: 60%;
+}
