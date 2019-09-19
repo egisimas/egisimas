@@ -63,3 +63,7 @@ p {
 .image-and-text-right {
     max-width: 60%;
 }
+
+span {
+    font-size: 14pt !important;
+}
